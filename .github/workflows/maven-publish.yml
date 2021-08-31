@@ -34,9 +34,4 @@ jobs:
       env:
         GITHUB_TOKEN: ${{ github.token }}
         
-    - name: test
-      run: |
-        echo $STAGE
-    env:
-      STAGE:  ${{ secrets.stage }}
-      
+
